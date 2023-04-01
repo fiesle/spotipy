@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #03111d;
+  color:#EEF5DB;
+  background-image: linear-gradient(#182330 20%, #03060d 80%);
+}
+
+nav{
+  padding:20px 100px;
+}
+
+
+nav h1,a {
+  font-size: 2rem;
+  text-decoration: none;
+  color:white;
+  text-shadow: 2px 2px rgb(170, 26, 26);
+}
+
+.playlist-container{
+    text-align: center;
+    padding: 40px 80px;
+}
+
+.playlist-container h2{
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+.playlist-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.playlist-cards .card{
+  width:500px;
+  height:550px;
+  margin-bottom:100px;
+}
+.playlist-cards iframe{
+  margin-bottom:5px;
+}
+.playlist-cards .card{
+  color:rgb(235, 229, 229);
+  font-weight: 300;
+}
+
+footer{
+  color:white;
+  text-align: center;
+  padding: 15px;
+  font-style: italic;
+}
+
+@media screen and (max-width:768px) {\'
+nav h1 {
+  font-size: 1.8rem;
+
+}
+  
+  .playlist-container h2{
+    font-size: 1rem;
+  }
+
+  .playlist-cards .card{
+  width:400px;
+  height:450px;
+
+}
+
+}
